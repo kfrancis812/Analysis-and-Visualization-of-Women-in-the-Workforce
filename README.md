@@ -36,7 +36,22 @@ Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
 
 1. Clone Repository
 2. After you have cloned the repo to your machine, navigate to the project folder in GitBash/Terminal.
-3. Create a virtual environment in the project folder. python3 -m venv venv 1
-4. Activate the virtual environment. source venv/bin/activate
-5. Install the required packages. pip install -r requirements.txt
-6. When you are done working on your repo, deactivate the virtual environment. deactivate
+3. Create a virtual environment in the project folder. ```python3 -m venv venv 1
+4. Activate the virtual environment. ```source venv/bin/activate
+5. Install the required packages. ```pip install -r requirements.txt
+6. When you are done working on your repo, deactivate the virtual environment. ```deactivate
+7. Run /clean_data_gender_wage_gap_oecd.ipynb
+   /clean_data_female_labor_force_participation_rates.ipynb
+   /clean_data_continents.ipynb
+
+analysis.ipynb
+
+jupyter nbconvert --execute clean_data_gender_wage_gap_oecd.ipynb
+jupyter nbconvert --execute clean_data_female_labor_force_participation_rates.ipynb
+jupyter nbconvert --execute clean_data_continents.ipynb
+jupyter nbconvert --execute analysis.ipynb
+
+to pull crash data from the API and create the SQLite database.
+Execute managing_tables.py to create and clean the necessary tables and merge the crash data with moon phase data.
+Run crashes_x_moonphase.py to clean the combined data and create a CSV file for visualization in Tableau.
+Import the CSV file crashes_x_moon.csv into Tableau for visualization.
