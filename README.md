@@ -4,10 +4,6 @@
 
 Analyze and visualize women’s participation in the workplace. Examining trends over time and identifying factors that contribute to these changes.
 
-## Tools and Technologies:
-
-Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
-
 ## Goals aka questions to answer:
 
 - Evolution of women's labor force participation rates
@@ -16,10 +12,14 @@ Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
 - Plot gender distribution in STEM fields
 - Impact of family responsibilities on career progression
 
+## Tools and Technologies:
+
+Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
+
 ## Features:
 
 - Loading Data:
-  - Read Two Data Files: Load employment and labor data from US Department of Labor(CSV) and Unesco (CSV).
+  - Read Two Data Files: Load employment and labor data.
   - Set up a local database and read data in with SQLite
 - Data Cleaning and Merging
   - Clean datasets using Pandas (handling missing values, correcting data types).
