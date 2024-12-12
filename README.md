@@ -36,15 +36,15 @@ Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
 
 1. Clone Repository
 2. After you have cloned the repo to your machine, navigate to the project folder in GitBash/Terminal.
-3. Create a virtual environment in the project folder. ```python3 -m venv venv 1
-4. Activate the virtual environment. `source venv/bin/activate
-5. Install the required packages. `pip install -r requirements.txt
-   When you are done working on your repo, deactivate the virtual environment. ```deactivate
-6. In the terminal run `jupyter notebook
+3. Create a virtual environment in the project folder. `python3 -m venv venv `
+4. Activate the virtual environment. `source venv/bin/activate`
+5. Install the required packages. `pip install -r requirements.txt`
+   When you are done working on your repo, deactivate the virtual environment. `deactivate`
+6. In the terminal run `jupyter notebook`
    This will open your browser. Open each of the following notebooks and run to clean the data and create the database. In Juptyer Notebook, once the file is open, click the play button at the top to run.
-   1. /clean_data_gender_wage_gap_oecd.ipynb
-   2. /clean_data_female_labor_force_participation_rates.ipynb
-   3. /clean_data_continents.ipynb
-7. Then run the /analysis.ipynb notebook to create the data visualizations.
+   1. `/clean_data_gender_wage_gap_oecd.ipynb`
+   2. `/clean_data_female_labor_force_participation_rates.ipynb`
+   3. `/clean_data_continents.ipynb`
+7. Then run the `/analysis.ipynb` notebook to create the data visualizations.
 
 If you run into any issues, you can also view the notebook in a IDE with the juypter notebook extension: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
