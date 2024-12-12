@@ -41,7 +41,7 @@ Pandas, Matplotlib, SQLite, Plotly, Jupyter Notebook.
 5. Install the required packages. `pip install -r requirements.txt`
    When you are done working on your repo, deactivate the virtual environment. `deactivate`
 6. In the terminal run `jupyter notebook`
-   This will open your browser. Open each of the following notebooks and run to clean the data and create the database. In Juptyer Notebook, once the file is open, click the play button at the top to run.
+   This will open your browser. Then open each of the notebooks and run in the following order to clean the data and create the database. In Juptyer Notebook, once the file is open, click the play button at the top to run.
    1. `/clean_data_gender_wage_gap_oecd.ipynb`
    2. `/clean_data_female_labor_force_participation_rates.ipynb`
    3. `/clean_data_continents.ipynb`
